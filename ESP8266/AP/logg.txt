@@ -1,0 +1,47 @@
+med dette oppsettet
+
+WiFi mode STA
+AT+CWMODE=1
+
+set opp som server
+AT+CIPMUX=1
+
+start server port 80
+AT+CIPSERVER=1,80
+
+kople til internett
+AT+CWJAP="biljardnet","Skutt1888"
+
+forespør ipadresse
+AT+CIFSR
+
+når jeg så går til adresse <IPADRESSE>/?id=hell2
+får jeg dette på serial monitor
+
+20:06:49.132 -> 0,CONNECT
+20:06:49.132 -> 
+20:06:49.132 -> +IPD,0,434:GET /id=hell2 HTTP/1.1
+20:06:49.132 -> Host: 10.0.0.109
+20:06:49.132 -> Connection: keep-alive
+20:06:49.132 -> Upgrade-Insecure-Requests: 1
+20:06:49.132 -> User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+20:06:49.132 -> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+20:06:49.165 -> Accept-Encoding: gzip, deflate
+20:06:49.165 -> Accept-Language: en-US,en;q=0.9,nb;q=0.8,no;q=0.7
+20:06:49.165 -> 
+
+
+***********************************
+
+dette fungerer ikke med oppsettet over, men jeg fikk til til med ESP8266 i AT mode (tror jeg)
+
+nå kan man snakke til webside fra enhet som er tilkoplet samme nett
+AT+CIPSEND=0,5 
+skriv inn 5 tegn
+AT+CIPCLOSE=0
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html
+
+
+
+
+
+**
+program ESP-01 med arduino med usb to TTL
+https://www.youtube.com/watch?v=P8Z-ZHwNeNI
+**
+
+
+program ESP-01 med arduino
+https://create.arduino.cc/projecthub/pratikdesai/how-to-program-esp8266-esp-01-module-with-arduino-uno-598166
+
+××××××××××××××××××××××××××××××××××××××××××××××××××××××××××××
+communicate med esp8266
+http://fab.cba.mit.edu/classes/865.15/people/dan.chen/esp8266/
+
+
+smartphone arduino
+https://www.youtube.com/watch?v=2cjufbgOBYo
+https://remotexy.com/en/editor/
+
+

@@ -1,0 +1,14 @@
+https://www.instructables.com/id/Getting-Started-With-the-ESP8266-ESP-01/
+
+
+
+A-Beginner's-Guide-to-the-ESP8266
+
+
+
+read serial input
+https://forum.arduino.cc/index.php?topic=396450.0
+
+
+https://www.youtube.com/watch?v=ji71cHaGW8w
+
